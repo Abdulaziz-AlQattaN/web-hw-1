@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #293132;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  user-select: none;
+}
+.container .items {
+  text-align: center;
+  padding: 10px;
+  background-color: #4f5165;
+  color: #547aa5;
+  border: 2px solid #50d8d7;
+  width: 350px;
+  border-radius: 15px;
+}
+.container .items p {
+  font-weight: bold;
+  font-size: 20px;
+  font-style: italic;
+  text-decoration: underline;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+.container .items p:hover {
+  background-color: #293132;
+  border: 1px solid #50d8d7;
+  border-radius: 10px;
+  transform: translateY(5px);
+}
+.container .items .link {
+  margin-top: 20px;
+  background-color: #50d8d7;
+  border-radius: 20px;
+  padding: 10px;
+  border: 3px solid black;
+}
+.container .items .link a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.container .items .link a:hover {
+  color: brown;
+}
+.container .items .logo {
+  margin-top: 10px;
+}
+.container .items .logo img {
+  border: 2px solid black;
+  border-radius: 13px;
+  width: 235px;
+  opacity: 1;
+}
+.container .items .logo img:hover {
+  border: 2px solid black;
+  width: 235px;
+  opacity: 0.5;
+}
+.container .items .logo img:active {
+  border: 2px solid black;
+  width: 235px;
+  opacity: 1;
+}
+.container .socialmedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2px;
+}
+.container .socialmedia img {
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.social {
+  opacity: 1;
+}
+.social:hover {
+  opacity: 0.5;
+}
+.social:active {
+  opacity: 1;
+}
